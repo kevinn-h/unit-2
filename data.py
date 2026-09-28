@@ -68,22 +68,23 @@ elif temp == 68:
 else:
     print("it is currently below 68 degrees") """
 
-number=input("give me a number")
-if number%2 == 0:
+""" number=int(input("give me a number - aiden lee"))
+if number %2 ==0:
     print("even")
-if number%2 == 1:
-    print("odd")
+else: 
+    print ("odd") """
 
-""" Restaurant = input("how much was the bill?")
-bill = 87.00
+""" bill = float(input("how much was the bill?"))
 service = input("how was the service?")
 if service == "good":
     print(float(bill) * 1.15)
-elif service == "bad":
-    print(float(bill) * 1.00)
+elif service == "never coming back":
+    print(float(bill) * 1.0)
 elif service == "great":
     print(float(bill) * 1.20)
 elif service == "Amazing":
     print(float(bill)* 1.25)
   """
+
+
 
