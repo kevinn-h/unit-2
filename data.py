@@ -84,7 +84,9 @@ elif service == "great":
     print(float(bill) * 1.20)
 elif service == "Amazing":
     print(float(bill)* 1.25)
-  """
+  """ 
 
-
-
+def factors(x):
+  factors==[]
+for i in range(1,x+1):
+  
