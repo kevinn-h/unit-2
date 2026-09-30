@@ -86,7 +86,10 @@ elif service == "Amazing":
     print(float(bill)* 1.25)
   """ 
 
-def factors(x):
-  factors==[]
-for i in range(1,x+1):
-  
+def spaces(N,Y,T):
+    X = 0
+    for i in range(N):
+            if Y[i] == "c" and T[i] == "c":
+                X=X+1
+    print(str(X))
+
