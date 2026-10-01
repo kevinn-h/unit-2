@@ -84,12 +84,16 @@ elif service == "great":
     print(float(bill) * 1.20)
 elif service == "Amazing":
     print(float(bill)* 1.25)
-  """ 
+  """
 
-def spaces(N,Y,T):
-    X = 0
+def Spaces(N,Y,T):
+    occupied = 0
     for i in range(N):
-            if Y[i] == "c" and T[i] == "c":
-                X=X+1
-    print(str(X))
+        if Y[i] == "C" and T[i] == "C":
+            occupied = occupied + 1
+    return(occupied)
+
+
+print(Spaces(5,".,.,C,C,C",".,C,C,C,."))
+
 
