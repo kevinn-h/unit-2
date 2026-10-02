@@ -86,7 +86,7 @@ elif service == "Amazing":
     print(float(bill)* 1.25)
   """
 
-def Spaces(N,Y,T):
+""" def Spaces(N,Y,T):
     occupied = 0
     for i in range(N):
         if Y[i] == "C" and T[i] == "C":
@@ -94,6 +94,14 @@ def Spaces(N,Y,T):
     return(occupied)
 
 
-print(Spaces(5,".,.,C,C,C",".,C,C,C,."))
+print(Spaces(5,".,.,C,C,C",".,C,C,C,.")) """
 
+def factor_number(number):
+    factors=[]
+    answer=int(input("give me a number"))
+    for i in range(1, number+1):
+        if number % i == 0:
+            factors.append(i)
+    return factors
+            
 
