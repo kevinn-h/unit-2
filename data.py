@@ -96,12 +96,20 @@ elif service == "Amazing":
 
 print(Spaces(5,".,.,C,C,C",".,C,C,C,.")) """
 
-def factor_number(number):
+""" def factor_number(number):
     factors=[]
-    answer=int(input("give me a number"))
     for i in range(1, number+1):
         if number % i == 0:
             factors.append(i)
     return factors
-            
+             """
+
+num1 = int(input("First number:"))
+num2 = int(input("Second number:"))
+
+for i in range(1,(num1+num2)+1):
+    if num1 % i == 0 and num2 % i == 0:
+        answer= i
+
+print(answer)
 
