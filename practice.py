@@ -1,18 +1,13 @@
-def wizard(owner,N,duels):
-    last_owner = owner
-    changes = 0
+def wizard(N,start,duels):
+    owner = start
+    possessor = 1
 
-duels = [0]
-print(duels = [0][0])
-
-
-
-
-
+    for i in range(N):
+        if duels[i][1] == owner:
+            owner = duels[i][0]
+            possessor += 1
+    print(owner, possessor)
 
 
 
-
-
-
-wizard("A", 3, ["BA","CB"])
+wizard(3,"A", ["BA","CB","DA"])
